@@ -17,7 +17,7 @@ public class seleniumFunction {
         public static String baseURL="https://gist.github.com/anggianugraha";
 
         public void createDriver() throws MalformedURLException,InterruptedException{
-            System.setProperty("webDriver.chrome.driver","/home/sitiwulandari/chromedriver");
+            System.setProperty("webDriver.chrome.driver","/home/anggianugraha/chromedriver");
             driver =  new ChromeDriver();
 
             driver.manage().window().maximize();
